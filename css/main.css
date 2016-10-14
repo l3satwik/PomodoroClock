@@ -1,0 +1,56 @@
+body{
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  background: #05B8CC;
+  color: white;
+  font-weight: bold;
+}
+
+.clock-header{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+}
+
+.clock{
+  padding-top: 20%;
+  padding-bottom: 20%;
+  margin-left: 0px auto;
+  color: #FFF;!important
+  /* max-width: 300px; */
+}
+
+.flip-clock-wrapper{
+  max-width: 300px !important;
+  height: auto !important;
+  margin: 0 auto!important;
+  display: block;
+}
+.flip-clock-label{
+color: #FFF !important;
+font-size: 14px;
+}
+
+
+.controls{
+  font-size: 20px;
+}
+
+.btn-primary{
+  width: 35px;
+}
+
+span{
+  font-size: 26px;
+}
+
+.heading{
+  font-size: 40px;
+}
+
+footer
+{
+  text-align: center;
+  min-height: 8vh;
+  padding-top: 2%;
+  padding-bottom: 1px;
+}

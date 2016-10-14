@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pomodore Clock</title>
+  <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="../lib/bootstrap.css">
+  <link rel="stylesheet" href="../lib/animate.css">
+  <link rel="stylesheet" href="../lib/flipclock.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="icon" href="../icon.ico">
+  <script src="../lib/jquery.js"></script>
+  <script src="../lib/flipclock.min.js"></script>
+  <script src="../js/main.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1 class="heading">Pomodore Clock!</h1>
+    <br><br>
+    <div class="main">
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Work Length</h3>
+          <button type="button" class="btn-primary" id="removesession">
+            <span>-</span>
+          </button>
+          &nbsp;<span class="durationvalue" id="sessionvalue">25</span>&nbsp;
+          <button type="button" class="btn-primary" id="addsession">
+            <span>+</span>
+          </button>
+        </div>
+        <div class="col-md-6">
+          <h3>Break Length</h3>
+          <button type="button" class="btn-primary" id="removebreak">
+            <span>-</span>
+          </button>
+          &nbsp;<span class="durationvalue" id="breakvalue">5</span>&nbsp;
+          <button type="button" class="btn-primary" id="addbreak">
+            <span>+</span>
+          </button>
+        </div>
+      </div>
+      <div class="row text-center flip-clock-wrapper">
+        <br><br><span class="clock-header worktimelabel">Timer</span>
+        <div class="clock">
+        </div>
+      </div>
+      <div class="controls">
+        <button type="button" class="btn-success" id="onswitch">Start</button>
+        <button type="button" class="btn-warning" id="offswitch">Stop</button>
+        <button type="button" class="btn-danger" id="resetswitch">Reset</button>
+      </div>
+    </div>
+    <footer>
+      <p>Copyright &copy; Satwik Gupta 2016. All Rights Reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
